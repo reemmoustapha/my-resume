@@ -1,20 +1,20 @@
 *{
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    margin: 0; /*remove spaces around*/
+    padding: 0; /*remove spaces inside*/
     font-family: montserrat;
 }
 
 body{
-    background: pink;
+    background: pink; /*whole page background*/
 }
 
-.container{
+.container{ /*the white box in the center*/
     background: white;
     max-width: 800px;
-    margin: 60px auto;
+    margin: 60px auto; /*center the box*/
     height: 1250px;
-    padding: 20px;
+    padding: 20px; /*space inside the box*/
     box-shadow: 0 2px 20px black;
 }
 
@@ -23,7 +23,7 @@ body{
 }
 
 .header h1{
-    margin-bottom: 10px;
+    margin-bottom: 10px; /* space under the name*/
 }
 
 .header h3{
@@ -35,12 +35,44 @@ body{
 .img-area{
     width: 200px;
     height: 200px;
-    border-radius: 50%;
+    border-radius: 50%; /*make it circle*/
     overflow: hidden;
-    margin: 25px auto;
+    margin: 25px auto; /*center the image*/
     border: 15px groove deeppink;
 }
 
-.img-area img{
-    width: 100%;
+.img-area img{ 
+    width: 100%; /*make the image fit in the circle*/
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap; /*allow wraping*/
+}
+
+.left{
+    flex: 1;
+    padding: 30px;
+}
+
+.left p{
+    line-height: 2;
+}
+
+.left ul li{
+    line-height: 2;
+}
+
+h2{
+    background: pink;
+    padding: 15px;
+    color: white;
+    margin: 30px 0;
+    font-size: 20px;
+    border-radius: 0 50px 0; /*rounded edges*/
+}
+
+.right{
+    flex: 1;
+    padding: 30px;
 }
