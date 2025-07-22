@@ -21,3 +21,26 @@ body{
 .header{
     text-align: center;
 }
+
+.header h1{
+    margin-bottom: 10px;
+}
+
+.header h3{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.img-area{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 25px auto;
+    border: 15px groove deeppink;
+}
+
+.img-area img{
+    width: 100%;
+}
