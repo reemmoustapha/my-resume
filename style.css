@@ -76,3 +76,19 @@ h2{
     flex: 1;
     padding: 30px;
 }
+
+.flex-container{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+    gap: 20px;
+}
+
+.flex-item{
+    background-color: rgb(247, 198, 205);
+    height: 30px;
+    border: 2px white;
+    padding: 10px;
+    border-radius: 10px;
+}
